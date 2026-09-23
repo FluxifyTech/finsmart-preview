@@ -1,13 +1,13 @@
-# FinSmart Wealth — design preview
+# FinSmart Wealth — client preview
 
-A single self-contained page previewing two website directions for
-**Hemanth Kumar** (FinSmart Wealth), built by Fluxify.
+The site for **Hemanth Kumar** (FinSmart Wealth), built by Fluxify.
 
-Use the toolbar to switch between **Our direction** and **The brief**, and
-between **English** and **తెలుగు**. The three calculators are live.
+- `/` — English
+- `/te/` — తెలుగు
+- `/v2/` — the alternative direction we pitched, kept for reference
 
-This is a pitch preview, not the live site. It is `noindex`, and the insurance
+Static export of the `finsmart-wealth` Next.js project:
+`STATIC_EXPORT=1 BASE_PATH=/finsmart-preview npm run build`, then copy `out/`.
+
+A preview, not the production deploy. It is `noindex`, and the insurance
 section still carries the pending-IRDAI notice.
-
-Source of truth: the `finsmart-wealth` project (`demo/preview.src.html`,
-built with `node demo/build.mjs`).
